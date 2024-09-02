@@ -1,0 +1,58 @@
+.superior_titulo {
+	font-size    : clamp(5rem, 7vw, 11.6rem);
+	line-height  : 1;
+	margin-top   : 0;
+	margin-bottom: var(--vspace-1_25);
+	color        : var(--color-3);
+    font-family: "DM Serif Display", Serif
+	
+}
+
+.introducao{
+	--content-padding-top   : max(20rem, 18vh);
+	--content-padding-bottom: 10.8rem;
+	--content-min-height    : calc(var(--vspace-1) * 27);
+	z-index                 : 2;
+	background-color        :  #332d2d;
+	
+	width                   : 100%;
+	height                  : max(var(--content-min-height), 100vh);
+	overflow                : hidden;
+	position                : relative;
+	top: 0;
+}
+
+.cabecalho {
+	--header-height: 90px;
+	--logo-width   : 9.6rem;
+	--box-shadow   : 0 1px 1px rgba(0, 0, 0, 0.02),
+		             0 2px 2px rgba(0, 0, 0, 0.02),
+		             0 4px 4px rgba(0, 0, 0, 0.02),
+		             0 8px 8px rgba(0, 0, 0, 0.02);
+	--box-shadow-2:  0 2px 2px rgba(0, 0, 0, 0.03),
+		             0 4px 4px rgba(0, 0, 0, 0.03),
+		             0 8px 8px rgba(0, 0, 0, 0.03),
+		              16px 16px rgba(0, 0, 0, 0.03);
+	z-index         : 100;
+	background-color: #FE8330;
+	height          : var(--header-height);
+	width           : 100%;
+	position        : absolute;
+	top             : 0;
+	left            : 0;
+}
+
+.forma{
+	aspect-ratio: 1/1;
+	width       : 25vw;
+	transform   : translate(-40%, 0);
+	margin      : -20% 0 0 0;
+	opacity     : 0.25;
+	grid-column : 1/span 5;
+	grid-row    : 1/span 1;
+	fill: white;
+}
+
+
+
+
